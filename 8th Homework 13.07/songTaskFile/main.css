@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+body{
+    background-color: rgb(136, 176, 75);
+}
+
+img{
+    height: 20vh;
+    width: 13vw;
+}
+
+.depecheModeImg{
+    margin-left: 25vw;
+}
+
+.rollingStonesImg{
+    margin-right: 25vw;
+}
+
+.depecheModeImg, 
+.rollingStonesImg, 
+.trainImg{
+    cursor: pointer;
+    border: 3px solid black; 
+}
+
+.depecheModeImg :hover, 
+.rollingStonesImg :hover, 
+.trainImg :hover{
+    height: 22vh;
+    width: 15vw;
+}
+
+.songText{
+    width: 28vw;
+    position: absolute;
+    margin-left: 39vw;
+    margin-top: 10vh;
+    font-size: 4vh;
+}
+
